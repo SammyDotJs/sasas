@@ -10,7 +10,7 @@ void main() {
     title: 'Flutter Demo',
     theme: ThemeData(
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      useMaterial3: true,
+      useMaterial3: false,
     ),
     home: const LoginView(),
   ));
